@@ -1,0 +1,75 @@
+.todo-container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+  }
+  
+  .todo-container input {
+    padding: 5px 10px;
+  }
+  
+  .task-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tasks-container {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .task {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .task:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  .task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-name {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  
+  .task-text {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .delete-task-button {
+    border: none;
+    border-radius: 8px;
+    background-color: #ff8d84;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-task-button:hover {
+    background-color: #ff7268;
+  }
+  

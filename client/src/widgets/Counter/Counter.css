@@ -1,0 +1,85 @@
+.counter-container {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #1c2321;
+  border-radius: 8px;
+  border: 10px solid black;
+}
+
+.counter {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  background-color: #0f2b14;
+  color: #0cec35;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 107, 25);
+}
+
+.counter-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.counter-controls button {
+  border: none;
+  font-size: 30px;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.counter-controls .decrement {
+  background-color: #ff8d84;
+}
+
+.counter-controls .decrement:hover {
+  background-color: #ff7268;
+}
+
+.counter-controls .increment {
+  background-color: #70b77e;
+}
+
+.counter-controls .increment:hover {
+  background-color: #37b750;
+}
+
+.reset {
+  width: 32px;
+  height: 84px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 3.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: white;
+  background-color: #3e6680;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset:hover {
+  background-color: #33576e;
+}
